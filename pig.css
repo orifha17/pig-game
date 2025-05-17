@@ -32,7 +32,6 @@ section {
 .right {
   position: absolute;
   right: 0;
-  background-color: rgb(170, 100, 130);
 }
 .player,
 .score {
@@ -43,6 +42,19 @@ section {
   top: 40px;
   width: 100%;
 }
+.player > h2 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+.player input {
+  font-size: 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  position: absolute;
+  left: 175px;
+  width: 100px;
+}
 .score {
   position: absolute;
   bottom: 50px;
@@ -52,10 +64,7 @@ section {
   color: white;
   background-color: rgb(142, 31, 65);
 }
-.player > h2 {
-  font-size: 40px;
-  font-weight: lighter;
-}
+
 button {
   position: absolute;
   z-index: 50;
@@ -66,16 +75,16 @@ button {
 }
 .first {
   top: 30px;
-  width: 140px;
+  width: 150px;
 }
 .second {
   bottom: 110px;
-  width: 120px;
+  width: 130px;
   transform: translate(0, 0);
 }
 .third {
   bottom: 60px;
-  width: 100px;
+  width: 110px;
   transform: translate(10px, 0);
 }
 i {
@@ -93,4 +102,8 @@ img {
 }
 .active {
   background-color: rgb(209, 157, 170);
+}
+.player-winner {
+  background-color: #2f2f2f;
+  color: rgb(142, 31, 65);
 }
