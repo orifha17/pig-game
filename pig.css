@@ -43,17 +43,10 @@ section {
   width: 100%;
 }
 .player > h2 {
-  font-size: 40px;
-  font-weight: lighter;
+  font-size: 30px;
 }
-.player input {
-  font-size: 20px;
-  background-color: transparent;
-  color: white;
-  border: none;
-  position: absolute;
-  left: 175px;
-  width: 100px;
+.player h1 {
+  font-size: 30px;
 }
 .score {
   position: absolute;
